@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+}
+
+td{
+    padding: 100px;
+    padding-left: 200px;
+    padding-top: 500px;
+}
+
+p{
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #ff5d4d;
+    border: 2px solid blue;
+}
+
+.cssshadow{
+    background-color: chocolate;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    box-shadow: 10px 10px 5px #FFccFF;
+
+}
+
+.mg{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 100px;
+}
+
+.container{
+    margin: 10px;
+}
+
+.bd {
+    border-style: dotted;
+}
+
+.pd{
+    padding: 100px;
+}
+
+.content{
+    background-color: cornflowerblue;
+}
+
