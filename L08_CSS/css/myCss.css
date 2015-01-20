@@ -1,0 +1,23 @@
+li strong{
+    color: red;
+}
+
+strong{
+    color: blueviolet;
+}
+
+#pid{
+    color: #ff5d4d;
+}
+
+#divid{
+    color: red;
+}
+
+#pid2 a{
+    color: aqua;
+}
+
+#divid2 p{
+    color: chartreuse;
+}
