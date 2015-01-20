@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <title>CSS基础</title>
     <link rel="stylesheet" type="text/css" href="css/myCss.css"/>
+    <style type="text/css">
+        [title]{
+            color: blue;
+        }
+        [title=te]{
+            color: red;
+        }
+    </style>
 </head>
 <body>
     <p><strong>p标签hello CSS</strong></p> <!--派生选择器-->
@@ -17,12 +25,34 @@
     <p id="pid2">hello CSS <a href="http://www.jiekxueyuan.com">学院</a></p> <!--组合选择器-->
     <div id="divid2">这是<p>第一个div</p></div>
     
-    <p class="pclass">这是一个class选择器效果</p>
+    <p class="pclass">这是一个class选择器效果</p> <!--类选择器-->
     <div class="divclass">Hello Div</div>
 
     <p class="pclass2">这是一个class选择器效果 <a href="http://www.jikexueyuan.com"></a></p>
     <div class="divclass">Hello Div <p>p标签</p></div>
 
-
+    <p title="t">属性选择器</p>
+    <p title="te">属性选择器</p>
+    <p title="tee">属性选择器</p>
 </body>
 </html>
+
+<!--
+CSS层叠样式表
+selector{
+      property:value
+      }
+h1{color:red;font-size:14px}
+属性大于1之后，属性之间用分号隔开
+如果值大于1个单词，则需要加上引号
+p{font-family:"sans serif";}
+-->
+
+<!--
+选择器分组
+h1,h2,h3,h4,h5,h6{color:red}
+继承
+body{
+   color:red;
+   }
+-->
