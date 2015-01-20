@@ -21,3 +21,19 @@ strong{
 #divid2 p{
     color: chartreuse;
 }
+
+.pclass{
+    color: red;
+}
+
+.divclass{
+    color: cornflowerblue;
+}
+
+.pclass2 a{
+    color: red;
+}
+
+.divclass2 p{
+    color: blue;
+}
