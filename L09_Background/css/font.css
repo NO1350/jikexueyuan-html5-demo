@@ -1,0 +1,13 @@
+p{
+    font-size: 40px;
+    font-family: fantasy;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url("http://fonts.userso.com/css?family=Tangerine");
+}
+
+div{
+    font-family: myfont;
+}

@@ -1,0 +1,16 @@
+body{
+    color: aqua;
+}
+
+h1{
+    color: red;
+}
+
+p{
+    color: red;
+    text-align: left;
+}
+
+h6{
+    text-indent: 2em;
+}

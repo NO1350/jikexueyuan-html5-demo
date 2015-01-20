@@ -1,0 +1,17 @@
+a:link{
+    color: blueviolet;
+    text-decoration: none;
+    background-color: antiquewhite;
+}
+
+a:visited{
+    color: dodgerblue;
+}
+
+a:hover{
+    color: chartreuse;
+}
+
+a:active{
+    color: brown;
+}
