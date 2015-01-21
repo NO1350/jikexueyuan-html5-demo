@@ -3,9 +3,20 @@
  */
 $(document).ready(function(){
    $(window).on("load",function(){
-	imgLocation();
+       imgLocation();
+       window.onscroll=function(){
+
+       };
    });
 });
+
+function scrollside(){
+    var box=$(".box");
+    var lastboxHeight=box.last().get(0).offsetTop+Math.floor(box.last().height()/2);
+    var documentHeight=$(window).width();
+    var scrollHeight=$(window).scrollTop;
+    return (lastboxHeight<scrollHeight+documentHeight)?true:false;
+}
 
 function imgLocation(){
     var box=$(".box");
