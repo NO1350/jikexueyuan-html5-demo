@@ -1,0 +1,14 @@
+.doSearch{
+    display: inline;
+    width: 10%;
+}
+
+.searchArea{
+    float: left;
+    width: 90%;
+    display: inline;
+}
+
+.ui-field-contain{
+    padding-right: 1px;
+}
